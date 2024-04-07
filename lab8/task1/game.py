@@ -121,9 +121,9 @@ while not done:
         entity.move()
 
     # if player collides with enemy, show game over and exit
-    if pygame.sprite.spritecollideany(P1, enemies):
-        pygame.mixer.Sound("crash.wav")
-        time.sleep(1)
+    #if pygame.sprite.spritecollideany(P1, enemies):
+    #    pygame.mixer.Sound("crash.wav")
+     #   time.sleep(10)
 
         screen.fill(RED)
         screen.blit(game_over, (20, 250))
